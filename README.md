@@ -1,4 +1,4 @@
-# AdaBoost-Travel-Prediction
+# Holiday Package Purchase Prediction (Random Forest \& AdaBoost)
 
 ## Overview
 This project demonstrates an **end-to-end machine learning pipeline** for predicting whether a customer will take a product (`ProdTaken`) using **AdaBoost** and **Random Forest** classifiers. The project includes **data cleaning, feature engineering, model training, hyperparameter tuning, cross-validation, and prediction workflow**.
