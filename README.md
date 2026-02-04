@@ -9,25 +9,41 @@ The dataset is based on travel customer information, and the goal is to predict 
 
 ## Project Structure
 
-AdaBoost-Travel-Prediction/
-│
-├── Dataset/
-│ └── Travel.csv # CSV dataset
-│
-├── notebooks/
-│ └── AdaBoost_Classifier.ipynb # Jupyter notebook demonstrating workflow
-│
-├── src/
-│ ├── data_preprocessing.py # Load, clean, fill missing values, encode & scale features
-│ ├── feature_engineering.py # Create derived features (e.g., TotalVisiting)
-│ ├── model_training.py # Train models, hyperparameter tuning, cross-validation
-│ └── predict.py # Make predictions on new customer data
-│
-├── .gitignore # Ignore venv, checkpoints, dataset (optional)
-├── requirements.txt # Python packages for the project
-├── README.md # Project description & instructions
-├── venv/ # Virtual environment (ignored)
-└── LICENSE # Optional license
+Dataset/
+
+Travel.csv → The dataset used for training and testing the model.
+
+notebooks/
+
+AdaBoost_Classifier.ipynb → Jupyter notebook that shows your full workflow (EDA, preprocessing, model training, evaluation).
+
+src/ → All your Python scripts for modular code
+
+data_preprocessing.py → Functions for loading data, cleaning it, handling missing values, encoding & scaling features.
+
+feature_engineering.py → Functions for creating new features like TotalVisiting.
+
+model_training.py → Functions for training models, tuning hyperparameters, cross-validation, and evaluation.
+
+predict.py → Functions to make predictions on new customer data using trained models.
+
+.gitignore
+
+Tells Git which files/folders to ignore (like venv/, __pycache__/, .ipynb_checkpoints/).
+
+requirements.txt
+
+Lists all Python packages your project depends on. Anyone can install them with pip install -r requirements.txt.
+
+README.md
+
+Project documentation with instructions, explanations, and usage examples.
+
+venv/
+
+Your virtual environment (ignored by Git; don’t push this folder).
+
+LICENSE
 
 
 ---
